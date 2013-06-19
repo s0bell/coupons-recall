@@ -54,8 +54,6 @@ class CouponsRecallTest(object):
             print '{0:7} {1}'.format('median:', int(numpy.median(val)))
             print
             for r in range(min(val), max(val) + 1):
-                if val.count(r) == 0:
-                    continue
                 pct = format(100 * float(val.count(r)) / float(
                     self.samples), '.2f')
                 print '{0:2} => {1}/{2} ({3}%)'.format(
