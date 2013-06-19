@@ -1,0 +1,5 @@
+{
+    "coupons_api": "http://gift-exp01.sv.walmartlabs.com:8341/coupons?q=",
+    "input_file": "Coupons_Recall_Bell.xlsx",
+    "output_file": "Coupons_Recall.xls"
+}
